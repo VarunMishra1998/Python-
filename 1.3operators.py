@@ -38,4 +38,15 @@ print((b>a)and (a>b))
 ## OR (only false-false =false)
 print((a<b)or(a>b))
 
+
 ##operator precedence 
+'''1.()
+2.**
+3.*,/,%   '''if same precedence occure then solve left to right 
+example:-20/2*5--->>5*5=25
+4.+,-
+5.==,!=,>,>=,<,<=
+6.not 
+7.and
+8.or'''
+example:-2*(3+5) ##16
