@@ -22,4 +22,4 @@ print(sum)
 a=int(input("enter a 1st number:"))
 b=int(input("enter a 2nd number:"))
 avg=(a+b)/2
-print("avg of two nubers:",avg)
+print("avg of two numbers:",avg)

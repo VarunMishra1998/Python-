@@ -5,10 +5,10 @@ generally we wrte single characters variables in single quote like ch='a'
 indexing is also occure in string
 '''
 
-word="pyhton" #length :6
-word3="pyth on" #length:7,space also refers as astring
-print(len(word))
-print(len(word3))
+word="pyhton" 
+word3="pyth on" 
+print(len(word)) #length :6
+print(len(word3)) #length:7,space also refers as astring
 
 #concatenate
 word1="i love"

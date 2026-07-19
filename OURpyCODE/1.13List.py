@@ -70,3 +70,32 @@ for val in marks:
 
     '''
 
+'''
+square = []
+for i in range(6):
+    square.append(i*i)
+print(square)
+OR
+square = [0]*6 #[0]*6-[0,0,0,0,0,0] six element (0)
+for i in range(6):
+    square[i] = i*i   # overwriting the index value
+print(square)
+
+OUTPUT-[0,1,4,9,16,25]
+    
+1.square = [[]] * 3
+print(square)
+
+Output
+[[], [], []]
+
+2.square = [[]] * 3
+square[0].append(5)
+print(square)
+
+3.square = [[], [], []] 
+square[0].append(5)
+square[1].append(5)
+square[2].append(5)
+print(square)
+'''

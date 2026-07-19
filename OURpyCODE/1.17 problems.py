@@ -129,10 +129,10 @@ d={}
 for name , courses in info:
 
   if(d.get(name) == none)
-   d.update({name : set()})
+   d.update({name : set()})  
      d.[name].add(cources)
      else:
-     d.[name].add(cources)
+     d.[name].add(cources) # this line work if name exist
 
      print(d)
 

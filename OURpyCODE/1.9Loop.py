@@ -72,6 +72,8 @@ while(i < 10):
 
     '''
 
+
+
 # Print odd nums from 1 to 10 using continue
 i = 0
 while(i < 10):
@@ -215,3 +217,74 @@ print("sum = ", sum)
 '''If we wrote range(1, n), the last number n would not be included.
 
 That’s why we write n+1 to make Python include n.'''
+
+#write a program to print last ch is vowel or not
+
+str=input("enter the string:")
+vowel=["a","e","i","o","u","A","E","I","O","U"]
+i=0
+last_char=""
+while i<len(str):
+    last_char=str[i] #overwrite
+    i=i+1
+if last_char in vowel:
+        print("last character is vowel")
+else:
+        print("last character is not vowel")    
+'''o/p:
+enter the string:apple
+last character is vowel
+    
+    '''
+"what happend if we weite if,else iside the while loop"
+
+str=input("enter the string:")
+vowel=["a","e","i","o","u","A","E","I","O","U"]
+i=0
+last_char=""
+while i<len(str):
+    last_char=str[i] #overwrite
+    i=i+1
+    if last_char in vowel:
+        print("last character is vowel")
+    else:
+        print("last character is not vowel")    
+'''o/p:
+enter the string:apple
+last character is vowel
+last character is not vowel
+last character is not vowel
+last character is not vowel
+last character is vowel
+
+here iside the loop 
+it will give five iteration
+value.
+
+'''
+#check last third ch is vowel or not
+
+# Input from user
+str= input("Enter a string: ")
+
+# List of vowels (both lowercase and uppercase)
+vowels = ["a","e","i","o","u","A","E","I","O","U"]
+
+# Calculate index of 3rd last character
+target_index = len(str) - 3  # 3rd last character
+# Make sure string has at least 3 characters
+if target_index < 0:
+    print("String is too short")
+else:
+    # Find 3rd last character using a loop
+    i = 0
+    char = ""
+    while i <= target_index:
+        char = str[i]
+        i += 1
+
+    # Check if it's a vowel
+    if char in vowels:
+        print("The 3rd last character is a vowel")
+    else:
+        print("The 3rd last character is not a vowel")
